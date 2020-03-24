@@ -11,7 +11,7 @@ Sentinel-1 interferograms are available as [NetCDF-4](https://www.unidata.ucar.e
 - Amplitude
 - Connected components
 
-Each data layer is also available as a stand-alone GeoTiff product.
+Each data layer is also available as a stand-alone GeoTIFF product.
 
 More information is available in the full [product specification](https://aria.jpl.nasa.gov/node/97).
 
