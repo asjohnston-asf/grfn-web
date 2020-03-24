@@ -1,6 +1,6 @@
 # Sentinel-1 Interferograms
 
-Sentinel-1 Interferogram (BETA) products are prototype Level 2 [interferometric products](https://asf.alaska.edu/data-sets/derived-data-sets/insar/) produced as part of the [Getting Ready for NISAR](https://earthdata.nasa.gov/learn/articles/tools-and-technology-articles/getting-ready-for-nisar) (GRFN) project using the ARIA Science Data System under development for the NISAR mission. The creation, discovery, and distribution of these products is to inform the NISAR mission team of possible cloud-based processing and data-management solutions. As such, these prototype products are not part of the ASF long-term archive, and may become unavailable at any time as new SAR interferometric processing and delivery methods are explored.
+Sentinel-1 Interferogram (BETA) products are prototype Level 2 [interferometric products](https://asf.alaska.edu/data-sets/derived-data-sets/insar/) produced as part of the [Getting Ready for NISAR](https://earthdata.nasa.gov/learn/articles/tools-and-technology-articles/getting-ready-for-nisar) (GRFN) project using the ARIA Science Data System under development for the NASA-ISRO Synthetic Aperture Radar (NISAR) mission. The creation, discovery, and distribution of these products is to inform the NISAR mission team of possible cloud-based processing and data-management solutions. As such, these prototype products are not part of the ASF long-term archive, and may become unavailable at any time as new SAR interferometric processing and delivery methods are explored.
 
 ## Products
 
