@@ -16,7 +16,7 @@ Interferograms are most easily searched using these values for the `processingle
 
 For example, this search returns a list of "Standard Product, NetCDF" products over Pasadena, CA since Jan 1, 2018:
 
-`https://api.daac.asf.alaska.edu/services/search/param?processinglevel=GUNW_STD&start=2018-01-01&point=-118.1445,34.1478&output=csv&maxResults=50`
+`https://api.daac.asf.alaska.edu/services/search/param?processinglevel=GUNW_STD&start=2018-01-01&intersectswith=point(-118.1445+34.1478)&output=csv&maxResults=50`
 
 ## Find Interferograms via the CMR Search API
 
