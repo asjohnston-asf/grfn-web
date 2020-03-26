@@ -1,27 +1,49 @@
-review draft by Andrew, reviewer: Jiang Zhu, 20200325
+Review the drafts, reviewer: Jiang Zhu, 2020-03-25
 
 1. home.md
 
-all links work. 
+All links work.
 
 2. Sentinel-1 Interferograms – Get Interferograms
 
-all links work. 
+All links work.
 
-checked download data with vertex. recorded the downloading process as vertex-example.mkv
+Checked download data with vertex. recorded the downloading process as vertex-example.mkv
 
-checked downloading data with earthdata. recorded the downlaoding process as earthdata-example.mkv
+Checked downloading data with earthdata. recorded the downloading process as earthdata-example.mkv
 
-3. commandline.md
+3. command_line.md
 
-the first link points to our ASF API correctly. 
+The first link points to our ASF API correctly. open the link to check downloading methods that provided in the document.
 
-checked bulk_download python tool. It works.
+Checked bulk_download python tool. It works.
 
-checked wget todownload a file, works.
+Checked wget downloading tool. It works.
 
-checked aria2c
+Checked aria2 to download the files.
 
-it does not work. the error is:
+Downloaded the source code, build myself. It does not work. the error is:
 
 [InitiateConnectionCommandFactory.cc:88] errorCode=1 https is not supported yet.
+
+
+Figured out the problem. Use sudo apt-get install aria2 -y to download the package. It works.
+
+The detail download ways are described in download_data_by_3ways.md file.
+
+The following example URL works.
+
+https://api.daac.asf.alaska.edu/services/search/param?processinglevel=GUNW_STD&start=2018-01-01&intersectswith=point(-118.1445+34.1478)&output=csv&maxResults=50
+
+
+Checked  CMR Search API link. It points to correct address.
+
+The following example URL works.
+
+https://cmr.earthdata.nasa.gov/search/granules.csv?collection_concept_id=C1595422627-ASF&temporal=2018-01-01T00:00:00Z,&point=-118.1445,34.1478&page_size=50
+
+Checked  link How To Access Data With cURL and Wget
+
+It works.
+
+The end of the review at 2020-03-26.
