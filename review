@@ -1,0 +1,27 @@
+review draft by Andrew, reviewer: Jiang Zhu, 20200325
+
+1. home.md
+
+all links work. 
+
+2. Sentinel-1 Interferograms – Get Interferograms
+
+all links work. 
+
+checked download data with vertex. recorded the downloading process as vertex-example.mkv
+
+checked downloading data with earthdata. recorded the downlaoding process as earthdata-example.mkv
+
+3. commandline.md
+
+the first link points to our ASF API correctly. 
+
+checked bulk_download python tool. It works.
+
+checked wget todownload a file, works.
+
+checked aria2c
+
+it does not work. the error is:
+
+[InitiateConnectionCommandFactory.cc:88] errorCode=1 https is not supported yet.
