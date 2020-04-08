@@ -4,7 +4,7 @@ Sentinel-1 Interferogram (BETA) products are prototype Level 2 [interferometric 
 
 ## Products
 
-Sentinel-1 interferograms are available as [NetCDF-4](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_introduction.html) products including the following science data:
+Sentinel-1 interferograms are available as [NetCDF-4](https://www.unidata.ucar.edu/software/netcdf/docs/index.html) products including the following science data:
 
 - Unwrapped Phase
 - Coherence
